@@ -1,0 +1,288 @@
+﻿# .NET Core
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Visual Studio 2019/2022 Cache Directory
+.vs/
+.vscode/
+
+# Visual Studio folder
+.vs/
+exes/
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code files for the Unreal Engine
+.vscode/*
+
+# User-specific files
+*.suo
+*.ntvs*
+*.ncb
+*.user
+*.userosscache
+*.[Cc]l[wW][Oo][RrR][Kk]
+BuildCost*
+.bldl
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug*/
+[Dd]ebugPublic/
+[Rr]elease*/
+[Rr]eleases/
+X64/
+x64/
+W32x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+.idea/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Mm]stestResults*/
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# Backup & report files from converting an old project file
+# Visual Studio VS 2015 cache/opts directory
+.vs/
+.vscode/
+.vsconfig
+
+# Roslyn v1.2.3 cache directory
+.rscache/
+**/.rscache/
+
+# Packages
+**/*.nupkg
+# NuGet v3 cache
+httpCache*
+
+# Microsoft Azure Web App publish settings. Comment the next line if you 
+# want to checkin your Azure Web App publish settings into source control
+PublishScripts/
+
+# NuGet v1 cache
+ProjectReferences/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep file headers with large time stamps
+![Ll]og![Hh]eader*[.T][t]xt
+
+# Others
+ClientBin/
+[Ss]tyleCop*/
+~$*
+*~
+*.dbmdl
+*.jfm
+rad*
+*.cache
+*.log
+*.viw
+local.xml
+*.ascx
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.rsuser
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+
+# Visual Studio 6 build log
+*.plg
+
+# Visual Studio 6 auto-generated project file (contains which files were open etc.)
+*.ncb
+
+# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+*.opt
+
+# Visual Studio LightSwitch build output
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+
+# Paket dependency manager
+.paket/paket.exe
+paket-files/
+
+# FAKE - F# Make
+.fake/
+
+# CodeRush personal settings
+.cr/personal
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Cake - Uncomment if you are using it
+tools/**
+!tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# Telerik's JustMock configuration file
+JustMock.g.config
+
+# BizTalk build output
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# OpenCover UI analysis results
+OpenCover/
+
+# Azure Stream Analytics local run output
+**/*.asaql
+**/*.rpesl
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# NVidia Nsight GPU debugger configuration file
+*.nvuser
+
+# MFractors (Xamarin productivity tool) working folder
+.mfractor/
+
+# Local History for Visual Studio
+.localhistory/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+# Ionide (cross platform F# VS Code tools) generated VSCode configs
+.vscode/ionide/
+
+# Fody - auto-generated XML schema
+FodyWeavers.xsd
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode-test/**
+
+# Local History for Visual Studio Code
+.localhistory/
+
+# Windows Installer files from build outputs
+**/*.cab
+**/*.msi
+**/*.msix
+**/*.msm
+**/*.msp
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep file headers with large time stamps
+![Ll]og![Hh]eader*[.Tt][Xx][Tt]
+
+# Others
+sql/
+TestResults/
+packages/

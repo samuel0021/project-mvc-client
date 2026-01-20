@@ -1,0 +1,46 @@
+﻿@using Project.MvcClient.Models.DTO.User
+
+@model UserCreateDto
+
+@{
+    ViewData["Title"] = "Cadastrar Usuário";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cadastrar Usuário</h1>
+</div>
+
+<form asp-controller="User" asp-action="NewUser" method="post">
+    <br />
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" asp-for="FirstName" class="form-control" placeholder="Digite o nome">
+        @Html.ValidationMessageFor(c => c.FirstName)
+    </div>
+
+    <br />
+    <div class="form-group">
+        <label for="email">Sobrenome</label>
+        <input type="text" asp-for="LastName" class="form-control" placeholder="Digite o sobrenome">
+        @Html.ValidationMessageFor(c => c.LastName)
+    </div>
+
+    <br />
+    <div class="form-group">
+        <label for="celular">Idade</label>
+        <input type="text" asp-for="Age" class="form-control" placeholder="Digite a idade">
+        @Html.ValidationMessageFor(c => c.Age)
+    </div>
+    
+    <br />
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" asp-for="Email" class="form-control" placeholder="Digite o email">
+        @Html.ValidationMessageFor(c => c.Email)
+    </div>
+
+    <br />
+    <br />
+    <button type="submit" class="btn btn-primary">Adicionar</button>
+    <a class="btn btn-secondary" asp-controller="User" asp-action="Index" role="button">Voltar</a>
+</form>
